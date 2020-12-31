@@ -1,5 +1,7 @@
-# Removes .html at the end of the URL
+# Error 404 Redirect
+ErrorDocument 404 /errorpage.html
 
+# Removes .html at the end of the URL
 RewriteEngine on
 
 RewriteCond %{REQUEST_FILENAME} !-d
