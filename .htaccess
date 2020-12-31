@@ -1,3 +1,5 @@
+# Removes .html at the end of the URL
+
 RewriteEngine on
 
 RewriteCond %{REQUEST_FILENAME} !-d
